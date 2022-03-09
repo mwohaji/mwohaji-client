@@ -1,0 +1,59 @@
+body {
+  margin: 20px;
+}
+:root {
+  background-color: #ffffff;
+  color: #000000;
+  --font-color: #000000;
+  --header-color: #fafafa;
+  --light-gray-color: #f4f4f4;
+  --nomal-gray-color: #f5f5f5;
+  --dark-gray-color: #e1e1e1;
+  --border-color: #919191;
+  --side-bar-color: #ffffff;
+  --sub-font-color: #232323;
+  --focus-color: #222222;
+}
+
+/* IE 미지원 */
+@media (prefers-color-scheme: dark) {
+  :root {
+    background-color: #000000;
+    color: #ffffff;
+    --font-color: #ffffff;
+    --header-color: #000000;
+    --light-gray-color: #1f1f1f;
+    --nomal-gray-color: #191919;
+    --dark-gray-color: #0f0f0f;
+    --border-color: #808080;
+    --side-bar-color: #222222;
+    --sub-font-color: #888888;
+    --focus-color: #808080;
+  }
+}
+
+:root.lightmode {
+  background-color: #ffffff;
+  color: #000000;
+  --font-color: #000000;
+  --header-color: #fafafa;
+  --light-btn-color: #f4f4f4;
+  --nomal-btn-color: #f5f5f5;
+  --dark-btn-color: #e1e1e1;
+  --border-color: #919191;
+  --side-bar-color: #ffffff;
+  --sub-font-color: #232323;
+}
+
+:root.darkmode {
+  background-color: #000000;
+  color: #ffffff;
+  --font-color: #ffffff;
+  --header-color: #000000;
+  --light-btn-color: #1f1f1f;
+  --nomal-btn-color: #0f0f0f;
+  --dark-btn-color: #e1e1e1;
+  --border-color: #808080;
+  --side-bar-color: #222222;
+  --sub-font-color: #888888;
+}
