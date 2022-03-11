@@ -2,7 +2,7 @@
   <div class="setting-list">
     <div class="setting-container" @click="isOpenTheme = !isOpenTheme">
       <div>테마</div>
-      <div>시스템</div>
+      <div>{{ theme }}</div>
     </div>
     <transition name="theme">
       <form v-if="isOpenTheme" @change="changeTheme" class="theme-list">
