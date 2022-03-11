@@ -52,7 +52,7 @@ export default {
 }
 
 .menu-wrapper {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.3);
   width: 100vw;
   height: 100vh;
   position: fixed;
